@@ -1,6 +1,8 @@
 bool isPrime(int n)
 {
 	// Write your code here.
+
+	// Use simple approach of finding divisors and check the count at the end
 	int cnt = 0;
 	for (int i = 1; i * i <= n; i++) {
 		if (n % i == 0) {

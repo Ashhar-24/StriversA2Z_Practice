@@ -9,7 +9,7 @@ public:
             x /= 10;
         }
 
-        /* given in th question that if revnum goes beyond 2^31/ -2^31 return 0;
+        /* given in the question that if revnum goes beyond 2^31/ -2^31 return 0;
            As INT_MAX gives the maximum number that can be stored in 'int' data type (similarly for INT_MIN),
            hence we use both to check the edge conditions.
 
